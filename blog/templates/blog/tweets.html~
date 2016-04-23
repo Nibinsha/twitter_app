@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+   
+    
+        
+
+    
+            {% for tweet in tweets %}
+            <div class="post">
+                <p>@{{handle}} tweeted: {{ tweet }}</p>
+            </div>
+                
+            {%endfor%}
+            <h1><a href="/">INDEX</a></h1>
+  </body>
+</html>

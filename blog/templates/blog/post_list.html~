@@ -1,0 +1,27 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Twitter App</title>
+    </head>
+    <body>
+        <div class="page-header">
+               
+          
+            <h1><a href="/">Welcome to Twitter app</a></h1>
+            <form action="post/list/search/" method = POST>
+{% csrf_token %}
+     <p> Please enter your twitter name </p>
+     <input type="search" name="search">
+     <p> Enter the number of Tweets to show </p>
+     <input type="search" name="search">
+     <input type="submit" value="search">
+</form>
+
+</div>
+
+
+</body>
+
+<html>
+
+
